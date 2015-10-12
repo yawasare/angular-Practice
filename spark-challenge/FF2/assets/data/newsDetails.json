@@ -1,0 +1,59 @@
+{
+  "icon":"assets/i/news-details-icon.jpg",
+  "topVideo":[
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/video-placeholder.jpg",
+      "name":"The Future of the Next Generation is Big Data"
+    }
+  ],
+  "topNews":[
+    {
+      "img":"assets/i/top-news-icon.jpg",
+      "desc":"The Future of the <br/>Next Generation is Big Data"
+    },
+    {
+      "img":"assets/i/top-news-icon.jpg",
+      "desc":"Atlanta Braves Fined <br/>Heavily after Field Dispute"
+    },
+    {
+      "img":"assets/i/top-news-icon.jpg",
+      "desc":"NYC Continues Facing <br/>Destructive Storms"
+    }
+  ]
+}

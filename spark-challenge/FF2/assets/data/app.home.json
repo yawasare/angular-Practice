@@ -1,0 +1,94 @@
+{
+  "features": [
+    {
+      "img": "assets/i/big_fish.png",
+      "packageName": "com.selfawaregames.acecasino",
+      "uri": "market://details?id=com.selfawaregames.acecasino",
+      "title": "Big Fish Casino",
+      "rating":5,
+      "desc":"Big fish games",
+      "appleAppStoreURl":"https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/soda.png",
+      "packageName": "com.king.candycrushsodasaga",
+      "uri": "market://details?id=com.king.candycrushsodasaga",
+      "title": "Candy Crush 2",
+      "rating": 4,
+      "desc": "KING",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/walgreens.png",
+      "packageName": "com.usablenet.mobile.walgreen",
+      "uri": "market://details?id=com.usablenet.mobile.walgreen",
+      "title": "Walgreens",
+      "rating": 4,
+      "desc": "SGN",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/panda.png",
+      "packageName": "com.sgn.pandapop.gp",
+      "uri": "market://details?id=com.sgn.pandapop.gp",
+      "title": "Panda Pop",
+      "rating": 4,
+      "desc": "Match.org",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/western_union.png",
+      "packageName": "com.westernunion.android.mtapp",
+      "uri": "market://details?id=com.westernunion.android.mtapp",
+      "title": "Western Union",
+      "rating": 5,
+      "desc": "Big fish games",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/lifelock.png",
+      "packageName": "com.lifelock.wallet",
+      "uri": "market://details?id=com.lifelock.wallet",
+      "title": "LifeLock Wallet",
+      "rating": 4,
+      "desc": "KING",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/match.png",
+      "packageName": "com.match.android.matchmobile",
+      "uri": "market://details?id=com.match.android.matchmobile",
+      "title": "Match.com",
+      "rating": 4,
+      "desc": "SGN",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/big_fish.png",
+      "packageName": "com.selfawaregames.acecasino",
+      "uri": "market://details?id=com.selfawaregames.acecasino",
+      "title": "Big Fish Casino",
+      "rating": 4,
+      "desc": "Match.org",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/soda.png",
+      "packageName": "com.king.candycrushsodasaga",
+      "uri": "market://details?id=com.king.candycrushsodasaga",
+      "title": "Candy Crush 2",
+      "rating": 5,
+      "desc": "Big fish games",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    },
+    {
+      "img": "assets/i/walgreens.png",
+      "packageName": "com.usablenet.mobile.walgreen",
+      "uri": "market://details?id=com.usablenet.mobile.walgreen",
+      "title": "Walgreens",
+      "rating": 4,
+      "desc": "KING",
+      "appleAppStoreURl": "https://itunes.apple.com/app/id310633997"
+    }
+  ]
+}

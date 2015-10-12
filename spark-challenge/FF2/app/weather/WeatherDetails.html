@@ -1,0 +1,91 @@
+
+<div data-ng-swipe-left="vm.goHome()" class="main-content">
+
+    <div data-ng-include="'app/layouts/Header.html'"></div>
+    <!--include header-->
+
+    <div data-ng-include="'app/layouts/Advertisement.html'"></div>
+    <!--include advetisement-->
+
+    <div class="weather-widget clearfix">
+        <div class="current">
+            <span class="city">
+                <i></i>{{vm.weather._city}}
+            </span>
+            <!--End city-->
+
+            <div class="temp clearfix">
+                <span class="count">{{vm.weather.sfc_ob.temp_F}}</span>
+                <span class="marks">
+                    <span class="deg">&deg;</span>
+                    <span class="sign">F</span>
+                </span>
+            </div>
+            <!--End temp-->
+        </div>
+        <!--End current-->
+
+        <div class="update">
+            <span class="status">updated {{vm.weather.sfc_ob.ob_time}}</span>
+            <i class="icon"></i>
+            <div class="info">
+                <span>{{vm.weather.sfc_ob.cld_cover}}</span>
+                <span>{{vm.weather.sfc_ob.wnd_spd_mph}} km/h</span>
+            </div>
+            <div class="info">
+                <span>{{vm.weather.daily_summaries.daily_summary[0].max_temp_F}}&deg;F/
+                  {{vm.weather.daily_summaries.daily_summary[0].min_temp_F}}&deg;F</span>
+            </div>
+        </div>
+        <!--End update-->
+
+    </div>
+    <!--End container-->
+
+    <div class="breakdown clearfix">
+        <div class="data {{$index%2===1?'alt':''}}" >
+            <label>Feels like</label>
+            <span class="info">{{vm.weather.sfc_ob.apparent_temp_F}}&deg;F</span>
+        </div>
+        <div class="data {{$index%2===1?'alt':''}}" >
+            <label>Sunrise</label>
+            <span class="info">{{vm.weather.sfc_ob.sunrise_local}}</span>
+        </div>
+        <div class="data {{$index%2===1?'alt':''}}" >
+            <label>Humidity</label>
+            <span class="info">{{vm.weather.sfc_ob.rh_pct}}%</span>
+        </div>
+        <div class="data {{$index%2===1?'alt':''}}" >
+            <label>Sunset</label>
+            <span class="info">{{vm.weather.sfc_ob.sunset_local}}</span>
+        </div>
+        <div class="data {{$index%2===1?'alt':''}}" >
+            <label>Wind</label>
+            <span class="info">{{vm.weather.sfc_ob.wnd_spd_mph}} mph</span>
+        </div>
+    </div>
+    <!--End breakdown-->
+
+    <div class="dayWeather">
+        <div class="day" data-ng-repeat="day in vm.weather.daily_summaries.daily_summary">
+            <label>{{day.day_of_week}}</label>
+            <span class="info">{{day.max_temp_F}}&deg;F/{{day.min_temp_F}}&deg;F</span>
+        <span class="status">
+            <i class="{{ day.wx.split(' ')[1] || day.wx }}"></i>
+            {{ day.wx }}
+        </span>
+        </div>
+    </div>
+    <!--End day weather-->
+
+    <div data-ng-include="'app/layouts/Advertisement.html'"></div>
+    <!--include advetisement-->
+
+    <div class="download-weather">
+        <a href="javascript:">Download 1Weather Now</a>
+    </div>
+    <!--End download weather-->
+</div>
+
+<div data-ng-include="'app/layouts/Footer.html'"></div>
+<!--include foote-->

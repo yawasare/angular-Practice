@@ -1,0 +1,23 @@
+[
+  {
+    "thumb":"assets/i/news-feed-icon-1.jpg",
+    "title":"The New York Times",
+    "shortDesc":"Top News articles from the top New York Times",
+    "status":"read",
+    "href":"#/newsDetails"
+  },
+  {
+    "thumb":"assets/i/news-feed-icon-2.jpg",
+    "title":"Yahoo! News",
+    "shortDesc":"Top News articles and video from Yahoo! News.",
+    "status":"unread",
+    "href":"#/newsDetails"
+  },
+  {
+    "thumb":"assets/i/news-feed-icon-3.jpg",
+    "title":"Time Magazine",
+    "shortDesc":"Top news, articles, videos, and premium mobile content",
+    "status":"unread",
+    "href":"#/newsDetails"
+  }
+]

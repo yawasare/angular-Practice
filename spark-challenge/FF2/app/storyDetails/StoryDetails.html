@@ -1,0 +1,55 @@
+<div data-ng-swipe-left="vm.goHome()" class="main-content">
+
+    <div data-ng-include="'app/layouts/Header.html'"></div>
+    <!--include header-->
+
+    <div class="media-placeholder">
+        <img src="assets/i/story-image.jpg" alt="img">
+    </div>
+    <!--End story image or video placeholder-->
+
+    <div class="story-container">
+        <h2 class="title" data-ng-bind-html="vm.getTrustedHtml(vm.storyDetails.title)">title</h2>
+
+        <h3 class="section-title">Top News</h3>
+        <!--End section-title-->
+
+        <h3 class="headline">Headline One Goes</h3>
+
+        <p data-ng-bind-html="vm.storyDetails.headline"></p>
+        <!--End headline-->
+
+        <h3 class="advertisement-title">ADVERTISEMENT</h3>
+        <!--End advertisement-title-->
+    </div>
+    <!--End story container-->
+
+    <div class="advertisement-holder" data-ng-include="'app/layouts/Advertisement.html'"></div>
+    <!--include advertisement-->
+
+
+    <div class="story-container">
+        <p class="content" data-ng-bind-html="vm.storyDetails.text"></p>
+        <!--End headline-->
+
+        <div class="contact">{{vm.storyDetails.authorName}}, <a href="javascript:" data-ng-href="mailto:{{vm.storyDetails.authorEmail}}">{{vm.storyDetails.authorEmail}}</a> for contact.</div>
+        <!--End .contact-->
+    </div>
+    <!--End story container-->
+
+    <div class="recommended-stories">
+        <h3>STORIES RECOMMENDED FOR YOU:</h3>
+        <ul>
+            <li data-ng-repeat="story in vm.storyDetails.recommendedStories">
+                <a href="javascript:">
+                    <img src="assets/i/story-icon.jpg" data-ng-src="{{story.img}}" alt="icon">
+                    <div class="desc"  data-ng-bind-html="vm.getTrustedHtml(story.desc)"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--End recommended-stories-->
+
+    <div data-ng-include="'app/layouts/Footer.html'"></div>
+    <!--include foote-->
+</div>

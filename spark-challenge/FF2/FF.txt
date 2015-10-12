@@ -1,0 +1,8 @@
+1.Response 6: Required  weatherDetails
+- Update just now text shall be updated to match storyboard.
+
+    If need to change any text just need to update related json file
+
+2.Response 1: Required  all media queries should be put to the bottom style file.
+
+    This is not a issue and there is no such condition or standard.

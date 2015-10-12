@@ -1,0 +1,63 @@
+{
+  "city":"San Francisco",
+  "temp":26,
+  "scale":"c",
+  "update":"just now",
+  "sky":"Sunny",
+  "wind":"14 km/h",
+  "tempRange":"22°C/10°C",
+  "breakdown":[
+    {
+      "label":"Feels like",
+      "info":"25°"
+    },
+    {
+      "label":"Sunrise",
+      "info":"17:58"
+    },
+    {
+      "label":"Humidity",
+      "info":"64%"
+    },
+    {
+      "label":"Sunset",
+      "info":"05:12"
+    },
+    {
+      "label":"Wind",
+      "info":"W 15 mph"
+    }
+  ],
+  "dayWeather":[
+    {
+      "day":"Monday, May 12th",
+      "tempRange":"22°/10°",
+      "status":"cloudy"
+    },
+    {
+      "day":"Tuesday, May 13th",
+      "tempRange":"26°/14°",
+      "status":"sunny"
+    },
+    {
+      "day":"Wednesday, May 14th",
+      "tempRange":"32°/21°",
+      "status":"cloudy"
+    },
+    {
+      "day":"Thursday, May 15th",
+      "tempRange":"27°/15°",
+      "status":"sunny"
+    },
+    {
+      "day":"Friday, May 16th",
+      "tempRange":"24°/11°",
+      "status":"cloudy"
+    },
+    {
+      "day":"Saturday, May 17th",
+      "tempRange":"38°/21°",
+      "status":"sunny"
+    }
+  ]
+}

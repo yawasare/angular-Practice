@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  margin-bottom: 0;
+  position: fixed;
+  height: 5%;
+  background: #000000;
+  width: 100%;
+  vertical-align: middle;
+  padding-top: .5%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+input[class="login-input"], textarea {
+  background-color: #3b4a22;
+
+}
+
+
+#view {
+  height: 100%;
+}
+
+.splash-img {
+  width: 100%;
+  position: fixed;
+  botom: 100%;
+  left: 1%;
+  width: 33%;
+  height: 60%;
+}
+.splash {
+  height:95%;
+  background: -webkit-linear-gradient(left, white 10%, #97cb43 90%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white 10%, #97cb43 90%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,white 10%, #97cb43 90%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white 10%, #97cb43 90%); /* Standard syntax */
+}
+
+.footer-text {
+  color: white;
+  font-size: 80%;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url('../font/Lobster_1.3.otf');
+}
+
+.brand-column {
+  vertical-align: baseline;
+  padding-top: 10%;
+}
+.brand {
+  font-family: Lobster;
+  color: white;
+  font-size: 500%;
+}
+
+.login-button {
+  background-color: orange;
+  color: white;
+  height: 45px;
+  vertical-align: middle;
+  font-size: 110%;
+}

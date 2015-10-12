@@ -1,0 +1,11 @@
+{
+  "name": "tholos",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server"       
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

@@ -1,0 +1,23 @@
+<!-- "Health" update example: http://localhost:80/feeds/health.php?LAT=41.43&LON=-82.22&echoCity=Lorain -->
+<health>
+	<location zipcode="44053" city="Amherst" region="OH" state="OH" statename="Ohio" country="US" countryname="United States of America" local_timezone_abbr="EDT" local_timezone_olson="America/New_York" local_offset_hours="-4" lat="41.43" lon="-82.22" data_timezone="UTC" data_offset="0"/>
+	<uv_index>
+		<today>8</today>
+		<tomorrow>8</tomorrow>
+	</uv_index>
+	<air_quality>
+		<today>
+			<category/>
+			<primary_pollutant/>
+			<primary_value/>
+			<all_types/>
+		</today>
+		<tomorrow>
+			<category/>
+			<primary_pollutant/>
+			<primary_value/>
+			<all_types/>
+		</tomorrow>
+	</air_quality>
+	<flu/>
+</health>

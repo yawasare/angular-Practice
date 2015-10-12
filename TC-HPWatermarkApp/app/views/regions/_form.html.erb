@@ -1,0 +1,61 @@
+<%= form_for([@project,@image,@region]) do |f| %>
+  <% if @region.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@region.errors.count, "error") %> prohibited this region from being saved:</h2>
+
+      <ul>
+      <% @region.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :top_left_x %><br>
+    <%= f.number_field :top_left_x %>
+  </div>
+  <div class="field">
+    <%= f.label :top_left_y %><br>
+    <%= f.number_field :top_left_y %>
+  </div>
+  <div class="field">
+    <%= f.label :width %><br>
+    <%= f.number_field :width %>
+  </div>
+  <div class="field">
+    <%= f.label :height %><br>
+    <%= f.number_field :height %>
+  </div>
+  <div class="field">
+    <%= f.label :original %><br>
+    <%= f.text_field :original %>
+  </div>
+  <div class="field">
+    <%= f.label :watermark %><br>
+    <%= f.text_field :watermark %>
+  </div>
+  <div class="field">
+    <%= f.label :watermark_strength %><br>
+    <%= f.number_field :watermark_strength %>
+  </div>
+  <div class="field">
+    <%= f.label :watermark_resolution %><br>
+    <%= f.number_field :watermark_resolution %>
+  </div>
+  <div class="field">
+    <%= f.label :link %><br>
+    <%= f.text_field :link %>
+  </div>
+  <div class="field">
+    <%= f.label :trigger %><br>
+    <%= f.text_field :trigger %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

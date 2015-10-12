@@ -1,0 +1,36 @@
+<div class="container splash">
+  <div class="row">
+    <div class="small-6 medium-4 small-centered medium-uncentered columns img-column text-center">
+      <img src="assets/img/login_thankyou_image.png" class="splash-img">
+    </div>
+    <div class="small-3 medium-4 small-centered columns text-center brand-column">
+      <h1 class="brand">Tholos</h1>
+      <div class="row">
+          <form ng-submit="submit()" ng-controller="LoginController">
+            <div class="row ng-hide login-error" ng-hide="noerror">
+              <p>Username and Password missmatch. Try Again!</p>
+            </div>
+            <div class="row">
+              <input class="login-input" ng-model="username" type="text" placeholder="Username" />
+            </div>
+            <div class="row">
+              <input class="login-input" ng-model="password" type="text" placeholder="Password" />
+            </div>
+            <div class="row">
+            <!--  <div class="small-6 text-left columns">
+                <input type="checkbox"><label> Remember me!</label>
+              </div>
+              <div class="small-6 columns">
+                <a href="">Forgot Password?</a>
+              </div>
+            -->
+            </div>
+            <div class="row">
+              <input type="submit" value="LOGIN" class="button expand login-button"></input>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+</div>
+<div ng-include src="'shared/footer.html'"></div>
